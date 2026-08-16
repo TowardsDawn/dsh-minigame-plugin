@@ -9,7 +9,7 @@
 
 - 帮助 AI 创建**任意类型**的 HTML5 **2D + 3D** 小游戏，不限制游戏类型，用户想做什么就做什么
 - 提供 Canvas 2D / Three.js / Babylon.js 三大引擎，根据需求自动选择
-- 内置 16 个参考文档，覆盖常见游戏机制的可复用模式（碰撞检测、粒子系统、物理引擎、网格算法等）
+- 内置 17 个参考文档，覆盖常见游戏机制的可复用模式（碰撞检测、粒子系统、物理引擎、网格算法等）
 - 支持程序化音效、高分存储
 - **多语言国际化**：中/英/日/韩 四语言支持，自动检测浏览器语言，一键切换
 - **包体与性能优化**：对象池、离屏 Canvas、InstancedMesh、设备分级、空闲降帧，2D < 40 KB，3D < 128 MB
@@ -36,14 +36,14 @@
 |------|---------|-----------|
 | 2D | 弹球、贪吃蛇、射击、平台跳跃、消除、跑酷、俄罗斯方块、2048、打地鼠、记忆翻牌 | 碰撞检测、网格系统、对象池、物理模拟、视差滚动、粒子特效、动画过渡 |
 | 3D | Three.js 完整参考 | 3D 场景、物理引擎、InstancedMesh、后处理、射线检测、空间音频 |
-| 通用 | 多语言、性能优化、响应式、叙事设计、UI 设计 | i18n、兵池、设备分级、三幕式结构、去卡片化 UI |
+| 通用 | 多语言、性能优化、响应式、叙事设计、UI 设计 | i18n、对象池、设备分级、三幕式结构、去卡片化 UI |
 
 ## 安装
 
 ### 安装到 Web 配置文件
 
 ```bash
-npx @deepseek-ai/dsh plugin --profile web add github:sasajun/dsh-minigame-plugin
+npx @deepseek-ai/dsh plugin --profile web add github:sasajun2345/dsh-minigame-plugin
 ```
 
 ### 本地开发
@@ -129,7 +129,7 @@ A DeepSeek Harness plugin for creating any type of HTML5 2D/3D mini-game. No gam
 
 - **No game type limits** — user proposes any game, plugin composes the right engine and patterns
 - Canvas 2D / Three.js / Babylon.js / Phaser.js engines, auto-selected based on need
-- 16 reference docs: collision detection, particle systems, physics, grid algorithms, 3D scenes, etc.
+- 17 reference docs: collision detection, particle systems, physics, grid algorithms, 3D scenes, etc.
 - Multi-language: Chinese / English / Japanese / Korean
 - Performance: object pooling, offscreen canvas, InstancedMesh, device tiering
 - Responsive: PC, tablet, mobile, virtual joystick, landscape/portrait
@@ -139,7 +139,7 @@ A DeepSeek Harness plugin for creating any type of HTML5 2D/3D mini-game. No gam
 ## Install
 
 ```bash
-npx @deepseek-ai/dsh plugin --profile web add github:sasajun/dsh-minigame-plugin
+npx @deepseek-ai/dsh plugin --profile web add github:sasajun2345/dsh-minigame-plugin
 ```
 
 ## Usage

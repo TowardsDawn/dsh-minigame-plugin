@@ -26,10 +26,10 @@
     "小游戏",
     "游戏制作"
   ],
-  "homepage": "https://github.com/sasajun/dsh-minigame-plugin",
+  "homepage": "https://github.com/sasajun2345/dsh-minigame-plugin",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sasajun/dsh-minigame-plugin.git"
+    "url": "git+https://github.com/sasajun2345/dsh-minigame-plugin.git"
   },
   "license": "MIT",
   "engines": {
