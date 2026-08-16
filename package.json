@@ -1,0 +1,41 @@
+{
+  "name": "dsh-minigame-plugin",
+  "version": "0.1.0",
+  "description": "DeepSeek Harness 小游戏制作插件 — 帮助 AI 快速创建 HTML5 小游戏，支持 Canvas、Phaser.js 等引擎",
+  "type": "module",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "skills"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "keywords": [
+    "deepseek-harness",
+    "dsh-plugin",
+    "cordis",
+    "minigame",
+    "game-development",
+    "html5-game",
+    "canvas-game",
+    "phaser",
+    "小游戏",
+    "游戏制作"
+  ],
+  "homepage": "https://github.com/sasajun/dsh-minigame-plugin",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sasajun/dsh-minigame-plugin.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.19.0"
+  },
+  "dependencies": {
+    "@deepseek-ai/dsh-skill-filesystem": "^0.1.0-rc.6"
+  }
+}
